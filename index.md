@@ -31,7 +31,21 @@ Host ieng6
 
 ## Setup Github Access from ieng6
 
-1) 
+1) First, you will need to make an ssh key on your remote computer through the methods discussed in lab 1.  Then, copy the key and put it into github.  If you do it correctly, it should look like this.
+
+![Github SSH Keys](https://raw.githubusercontent.com/jt-ucsd/cse15l-lab-report-3/main/Github%20Access%20from%20Ieng6%201.jpg)
+
+2) Afterwards, you can check by doing ``cd .ssh`` on your remote computer to move the directory to the folder that should hold both the private and public key.
+
+![SSH Private and Public Directory](https://raw.githubusercontent.com/jt-ucsd/cse15l-lab-report-3/main/Github%20Access%20from%20Ieng6%202.jpg)
+
+3) If you have done everything correct, you should be able to run ``git push origin main`` from your remote computer to push updates to github.
+
+![Git Push Origin Main Working](https://raw.githubusercontent.com/jt-ucsd/cse15l-lab-report-3/main/Github%20Access%20from%20Ieng6%203.jpg)
+
+4) The changes should be reflected in Github like so.  Here is my [link](https://github.com/jt-ucsd/markdown-parser/commit/aade8e55119b8781c2026ad4a1c5bcd1bef2dec6) to my repository updated through ieng6 remotely.
+
+![Github Commit Remote](https://github.com/jt-ucsd/cse15l-lab-report-3/blob/main/Github%20Access%20from%20Ieng6%204.jpg)
 
 ## Copy whole directories with scp -r
 
